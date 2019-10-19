@@ -5,6 +5,27 @@ body{
 	color:#2c3e50;
 	background-color:#c5d3ea;
 }
+.col-sm-6 col-md-4 {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
+}  
   
-  
+  body{
+	padding-top:70px;
+}
+.jumbotron{
+	color:#2c3e50;
+	background-color:#c5d3ea;
+}
+.thumbnail
+{
+	transition: 0.3s;
+}  
+.thumbnail:hover
+{
+	transform: scale(1.2);
+}
+
 
