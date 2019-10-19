@@ -1,14 +1,15 @@
 #include<conio.h>
 #include <stdio.h>
 #include<stdio.h>
-
+int incr(int);
+int decr(int);
 
 int main()
 {
     int num,ch;
     printf("enter the  two digit number of your choice");
     scanf("%d",&num);
-    while(ch!=2){
+    do{
     printf("This is the following menu options\n");
     printf("----------1.Choose here for incrementing the number-----------------\n");
     printf("----------2.Choose here for decrementing the number-------------------\n");
@@ -16,7 +17,7 @@ int main()
     printf("enter the choice");
     scanf("%d",&ch);
     
-    switch(num) {
+    switch(ch) {
         case 1: {
             int res;
             res=incr(num);
@@ -31,16 +32,12 @@ int main()
             
         }
         case 3:{
-            exit(0);
-            break;
+            return 0;
         }
     }
-    }       
-    
-
+    }while(ch!=2);
     return 0;
-}
-
+    }       
 int incr(int x)
 {
      x=x+1;
