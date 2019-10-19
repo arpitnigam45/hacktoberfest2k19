@@ -8,7 +8,7 @@ Example: given list -> [1,2,3,4,5]
                      []
 
 '''
-
+#the code below is tried and tested
 nums = [3, 5, 2, 9, 101, 333, 4]
 while len(nums):
     if(len(nums)==1):
